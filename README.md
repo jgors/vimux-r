@@ -1,4 +1,4 @@
-vimux-ipy
+vimux-r
 =============
 
 This is a vim plugin for added R functionality built on top 
