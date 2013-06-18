@@ -44,7 +44,7 @@ After the R tmux split is created, these keybindings are made:
 -----------
 ##### To execute current visually selected block of code in the R tmux split: 
 
-`vmap <silent> <Leader-e> :python run_visual_code()<CR>` 
+`vmap <silent> <Leader>e :python run_visual_code()<CR>` 
 
 -----------
 ##### To execute the current "cell" in the R tmux split: 
