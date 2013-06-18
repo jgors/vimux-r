@@ -47,7 +47,7 @@ After the R tmux split is created, these keybindings are made:
 `vmap <silent> <Leader-e> :python run_visual_code()<CR>` 
 
 -----------
-##### To execute the current "cell" in the iPython tmux split: 
+##### To execute the current "cell" in the R tmux split: 
 
 `noremap <silent> <Leader>c :python run_cell(save_position=False, cell_delim='####')<CR>` 
 
