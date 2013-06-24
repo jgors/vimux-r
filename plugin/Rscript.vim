@@ -19,7 +19,6 @@ def run_visual_code():
     r = vim.current.range
     lines = vim.current.buffer[r.start:r.end+1]
 
-
     if use_indentation:
         # Count indentation on first selected line
         firstline = vim.current.buffer[r.start]
